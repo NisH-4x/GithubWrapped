@@ -62,7 +62,7 @@ export default function RepoPromoCard() {
 
         <div className="flex justify-center">
           <a
-            href="https://github.com/aadii-rawt/github-wrapped"
+            href="https://github.com/NISHANTCHAUHAN1/Github-wrapped-clientt"
             target="_blank"
             rel="noreferrer"
             className="group mt-6 inline-flex items-center gap-3 justify-center rounded-xl border border-white/15 bg-white/5 px-5 py-3 font-semibold text-white/90 backdrop-blur transition hover:bg-white/10"

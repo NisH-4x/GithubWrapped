@@ -65,8 +65,8 @@ const Home: React.FC = () => {
                 <Leaderboard />
 
                 <footer className='mt-20 pb-10 z-[99999] text-center'>
-                    <h1 className='text-white text-sm  text-center'>build with 🤍 by <a href="https://github.com/sahillrathore" target='_blank' className='underline cursor-pointer'>sahillrathore</a>  &  <a href="https://github.com/aadii-rawt" target='_blank' className='underline cursor-pointer'> aadii-rawt</a> </h1>
-                    <a href='https://github.com/aadii-rawt/github-wrapped' className='mt-2 underline text-sm text-center'>Request a feature ⚡ or report a bug 🪲 </a>
+                    <h1 className='text-white text-sm  text-center'>build with 🤍 by <a href="https://www.linkedin.com/in/nishantchauhan101/" target='_blank' className='underline cursor-pointer'>Nishant Chauhan</a> </h1>
+                    <a href='https://github.com/NISHANTCHAUHAN1/Github-wrapped-clientt' className='mt-2 underline text-sm text-center'>Request a feature ⚡ or report a bug 🪲 </a>
                 </footer>
             </div>
 

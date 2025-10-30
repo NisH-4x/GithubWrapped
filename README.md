@@ -29,5 +29,5 @@ Check out the live version here: [https://git-wrapped.dotdazzle.in](https://git-
 1. **Clone the repo:**
 
 ```bash
-git clone https://github.com/aadii-rawt/github-wrapped.git
+git clone https://github.com/NISHANTCHAUHAN1/Github-wrapped-clientt
 cd github-wrapped
