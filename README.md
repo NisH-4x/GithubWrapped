@@ -13,12 +13,10 @@ View your most active repositories, contributions, commit stats, languages, and 
 
 ## 🖼️ Preview
 
-![image](https://github.com/user-attachments/assets/b0479bf2-cf88-4098-887a-1a0378566d43)
+## 🖼️ Preview
 
+![App Preview](ss.png)
 
-## 🚀 Live Demo
-
-Check out the live version here: [https://git-wrapped.dotdazzle.in](https://git-wrapped.dotdazzle.in)
 
 ## 🔧 Tech Stack
 
@@ -26,8 +24,3 @@ Check out the live version here: [https://git-wrapped.dotdazzle.in](https://git-
 - **Data:** GitHub REST API / GraphQL API
   
 
-1. **Clone the repo:**
-
-```bash
-git clone https://github.com/NISHANTCHAUHAN1/Github-wrapped-clientt
-cd github-wrapped
