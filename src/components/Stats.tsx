@@ -14,14 +14,12 @@ const Stats: React.FC = () => {
 
   const capturePNG = async () => {
     const node = cardRef.current!;
-    // since images are now in /public (same origin), no CORS issue 🎉
     return htmlToImage.toPng(node, {
       cacheBust: true,
       pixelRatio: 2,
-      backgroundColor: "#0b1220", // matches your dark bg so edges look clean
+      backgroundColor: "#0b1220", 
       filter: (n) => {
         if (n instanceof Element) {
-          // skip UI-only bits (buttons/tooltips) during export
           if ((n as HTMLElement).dataset?.noexport === "true") return false;
         }
         return true;
@@ -90,14 +88,14 @@ const Stats: React.FC = () => {
           <div className="p-3">
             {/* these paths should now point to /public, e.g.: /images/itachi.gif */}
             <img
-              src={characterInfo.gif} // e.g. "/images/itachi.gif"
+              src={characterInfo.gif} 
               alt={characterInfo.name}
               className="rounded max-h-[150px] w-full object-cover"
             />
 
             <div className="flex items-center justify-center -mt-8 flex-col">
               <img
-                src={userStats?.user?.avatar_url /* if you also moved to public, use local path */}
+                src={userStats?.user?.avatar_url}
                 alt=""
                 className="w-16 h-16 rounded-full border-2"
               />
