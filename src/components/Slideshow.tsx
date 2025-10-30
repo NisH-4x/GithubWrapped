@@ -24,22 +24,82 @@ const loadingMessages: string[] = [
   "Making your stats beautiful...",
 ];
 
+// const characterMap = [
+//   {
+//     min: 5000,
+//     profile:
+//       "https://i.pinimg.com/736x/c4/d8/bd/c4d8bd2bc75d17c9bec2edf92c7aa8e8.jpg",
+//     name: "Itachi",
+//     gif: "/itachigif.gif",
+//     level: "Akatsuki",
+//   },
+//   {
+//     min: 2000,
+//     profile:
+//       "https://i.pinimg.com/736x/51/85/c2/5185c26e752c6c50e1f4704640c9ad96.jpg",
+//     name: "Satoru Gojo",
+//     gif: "/satorugojogif.gif",
+//     level: "Jujutsu Special",
+//   },
+//   {
+//     min: 1000,
+//     profile:
+//       "https://i.pinimg.com/736x/c5/65/9e/c5659e228862cc1911e80bc7d11d09de.jpg",
+//     name: "Goku",
+//     gif: "/gokugif.gif",
+//     level: "Saiyan God",
+//   },
+//   {
+//     min: 500,
+//     profile:
+//       "https://i.pinimg.com/736x/da/23/b9/da23b9fe3f689477e1ba960b3c6c8e39.jpg",
+//     name: "Kakashi",
+//     gif: "/kakashigif.gif",
+//     level: "Hasira",
+//   },
+//   {
+//     min: 200,
+//     profile:
+//       "https://i.pinimg.com/736x/11/d4/13/11d41360d4d51ad3e07eca1f4bc7f8dd.jpg",
+//     name: "Naruto",
+//     gif: "/narutogif.gif",
+//     level: "Hokage",
+//   },
+//   {
+//     min: 50,
+//     profile:
+//       "https://i.pinimg.com/736x/79/e2/c9/79e2c9402014ead1eebf6c9f184c5bf8.jpg",
+//     name: "Roronoa Zoro",
+//     gif: "zorogif.gif",
+//     level: "Swordsman",
+//   },
+//   {
+//     min: 0,
+//     profile:
+//       "https://i.pinimg.com/736x/a8/2d/76/a82d7650231cbc5cbfba1920d07003fb.jpg",
+//     name: "Luffy",
+//     gif: "luffygif.gif",
+//     level: "Rookie",
+//   },
+// ];
+
+
 const characterMap = [
   {
     min: 5000,
     profile:
-      "https://i.pinimg.com/736x/c4/d8/bd/c4d8bd2bc75d17c9bec2edf92c7aa8e8.jpg",
-    name: "Itachi",
-    gif: "/itachigif.gif",
-    level: "Akatsuki",
+      "https://i.pinimg.com/736x/a8/2d/76/a82d7650231cbc5cbfba1920d07003fb.jpg",
+    name: "Luffy",
+    gif: "luffygif.gif",
+    level: "Priate King",
   },
   {
     min: 2000,
     profile:
-      "https://i.pinimg.com/736x/51/85/c2/5185c26e752c6c50e1f4704640c9ad96.jpg",
-    name: "Satoru Gojo",
-    gif: "/satorugojogif.gif",
-    level: "Jujutsu Special",
+      "https://i.pinimg.com/736x/79/e2/c9/79e2c9402014ead1eebf6c9f184c5bf8.jpg",
+    name: "Roronoa Zoro",
+    gif: "zorogif.gif",
+    level: "Swordsman",
   },
   {
     min: 1000,
@@ -48,6 +108,14 @@ const characterMap = [
     name: "Goku",
     gif: "/gokugif.gif",
     level: "Saiyan God",
+  },
+  {
+    min: 500,
+    profile:
+      "https://i.pinimg.com/736x/c4/d8/bd/c4d8bd2bc75d17c9bec2edf92c7aa8e8.jpg",
+    name: "Itachi",
+    gif: "/itachigif.gif",
+    level: "Akatsuki",
   },
   {
     min: 500,
@@ -66,22 +134,16 @@ const characterMap = [
     level: "Hokage",
   },
   {
-    min: 50,
-    profile:
-      "https://i.pinimg.com/736x/79/e2/c9/79e2c9402014ead1eebf6c9f184c5bf8.jpg",
-    name: "Roronoa Zoro",
-    gif: "zorogif.gif",
-    level: "Swordsman",
-  },
-  {
     min: 0,
     profile:
-      "https://i.pinimg.com/736x/a8/2d/76/a82d7650231cbc5cbfba1920d07003fb.jpg",
-    name: "Luffy",
-    gif: "luffygif.gif",
-    level: "Rookie",
+      "https://i.pinimg.com/736x/51/85/c2/5185c26e752c6c50e1f4704640c9ad96.jpg",
+    name: "Satoru Gojo",
+    gif: "/satorugojogif.gif",
+    level: "Jujutsu Special",
   },
 ];
+
+
 
 const SlideShow: React.FC = () => {
   const {
