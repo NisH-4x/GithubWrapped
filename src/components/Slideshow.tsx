@@ -90,7 +90,7 @@ const characterMap = [
     profile:
       "https://i.pinimg.com/736x/a8/2d/76/a82d7650231cbc5cbfba1920d07003fb.jpg",
     name: "Luffy",
-    gif: "luffygif.gif",
+    gif: "luffy.gif",
     level: "Priate King",
   },
   {
@@ -112,18 +112,10 @@ const characterMap = [
   {
     min: 500,
     profile:
-      "https://i.pinimg.com/736x/c4/d8/bd/c4d8bd2bc75d17c9bec2edf92c7aa8e8.jpg",
-    name: "Itachi",
-    gif: "/itachigif.gif",
-    level: "Akatsuki",
-  },
-  {
-    min: 500,
-    profile:
-      "https://i.pinimg.com/736x/da/23/b9/da23b9fe3f689477e1ba960b3c6c8e39.jpg",
-    name: "Kakashi",
-    gif: "/kakashigif.gif",
-    level: "Hasira",
+      "https://i.pinimg.com/736x/ee/47/18/ee47184776cd7d44bcb8f72ff21751aa.jpg",
+    name: "Aizen Sosuke",
+    gif: "/aizen.gif",
+    level: "Soul Reaper ",
   },
   {
     min: 200,
@@ -132,6 +124,14 @@ const characterMap = [
     name: "Naruto",
     gif: "/narutogif.gif",
     level: "Hokage",
+  },
+  {
+    min: 50,
+    profile:
+      "https://i.pinimg.com/736x/4c/68/b1/4c68b1d22a2bc422d039b6ffb2d5cdfb.jpg",
+    name: "Itoshi Sae",
+    gif: "/sea.gif",
+    level: "GOAT",
   },
   {
     min: 0,
