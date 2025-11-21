@@ -65,7 +65,7 @@ const Home: React.FC = () => {
                 <Leaderboard />
 
                 <footer className='mt-20 pb-10 z-[99999] text-center'>
-                    <h1 className='text-white text-sm  text-center'>build with 🤍 by <a href="https://nishh3.vercel.app/" target='_blank' className='underline cursor-pointer'>Nishant Chauhan</a> </h1>
+                    <h1 className='text-white text-sm  text-center'>build🤍 by <a href="https://nishh3.vercel.app/" target='_blank' className='underline cursor-pointer'>Nishant Chauhan</a> </h1>
                     <a href='https://nishh3.vercel.app/' className='mt-2 underline text-sm text-center'>Request a feature ⚡ or report a bug 🪲 </a>
                 </footer>
             </div>
