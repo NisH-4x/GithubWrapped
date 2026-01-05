@@ -118,25 +118,25 @@ const Stats: React.FC = () => {
                   <div className="space-y-2">
                     <ul className="text-sm">
                       <li className="flex items-center gap-2 text-gray-300 ">
-                        5000+ commits/year <GoArrowRight /> Itachi
+                        5000+ commits/year <GoArrowRight /> Luffy
                       </li>
                       <li className="flex items-center gap-2 text-gray-300 ">
-                        2000+ commits/year <GoArrowRight /> Satoru Gojo
+                        2000+ commits/year <GoArrowRight /> Roronoa Zoro
                       </li>
                       <li className="flex items-center gap-2 text-gray-300 ">
                         1000+ commits/year <GoArrowRight /> Goku
                       </li>
                       <li className="flex items-center gap-2 text-gray-300 ">
-                        500+ commits/year <GoArrowRight /> Kakashi
+                        500+ commits/year <GoArrowRight /> Aizen Sosuke
                       </li>
                       <li className="flex items-center gap-2 text-gray-300 ">
                         200+ commits/year <GoArrowRight /> Naruto
                       </li>
                       <li className="flex items-center gap-2 text-gray-300 ">
-                        50+ commits/year <GoArrowRight /> Roronoa Zoro
+                        50+ commits/year <GoArrowRight /> Itoshi Sae
                       </li>
                       <li className="flex items-center gap-2 text-gray-300 ">
-                        Less than 50 commits <GoArrowRight /> Luffy
+                        Less than 50 commits <GoArrowRight /> Satoru Gojo
                       </li>
                     </ul>
                   </div>
