@@ -186,7 +186,7 @@ const SlideShow: React.FC = () => {
 
   const slides = [
     <SecondStory />,
-    <YearCascadeSlide year={2025} rows={5} />,
+    <YearCascadeSlide year={2026} rows={5} />,
     <ForthStep />,
     <RepoPromoCard />,
     <Stats />,
