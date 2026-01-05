@@ -194,25 +194,25 @@ const Stats: React.FC = () => {
                   <div className="space-y-2">
                     <ul className="text-sm">
                       <li className="flex items-center gap-2 text-gray-300 ">
-                        5000+ commits : Akatsuki
+                        5000+ commits : Luffy
                       </li>
                       <li className="flex items-center gap-2 text-gray-300 ">
-                        2000+ commits : Jujutsu Special
+                        2000+ commits : Roronoa Zoro
                       </li>
                       <li className="flex items-center gap-2 text-gray-300 ">
-                        1000+ commits : Saiyan God
+                        1000+ commits : Goku
                       </li>
                       <li className="flex items-center gap-2 text-gray-300 ">
-                        500+ commits : Hasira
+                        500+ commits :Aizen Sosuke
                       </li>
                       <li className="flex items-center gap-2 text-gray-300 ">
-                        200+ commits : Hokage
+                        200+ commits : Naruto
                       </li>
                       <li className="flex items-center gap-2 text-gray-300 ">
-                        50+ commits : Swordsman
+                        50+ commits : Itoshi Sae
                       </li>
                       <li className="flex items-center gap-2 text-gray-300 ">
-                        Less than 50 commits : Rookie
+                        Less than 50 commits : Satoru Gojo
                       </li>
                     </ul>
                   </div>
