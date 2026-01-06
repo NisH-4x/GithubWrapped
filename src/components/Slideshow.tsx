@@ -175,7 +175,6 @@ const SlideShow: React.FC = () => {
     }
   }, [username]);
 
-  // Update loading message every 2.5 seconds
   useEffect(() => {
     if (!loading) return;
     const interval = setInterval(() => {
@@ -199,7 +198,6 @@ const SlideShow: React.FC = () => {
     );
   };
 
-  //============== get user stats ======================
   useEffect(() => {
     const fetchUserStats = async () => {
       if (!username) return;
@@ -219,7 +217,6 @@ const SlideShow: React.FC = () => {
         setCharacterInfo(characterInfo);
         console.log(characterInfo);
 
-        // Save/update to your MongoDB via backend
         await axios.post(`${import.meta.env.VITE_API_URL}/api/stats/save`, {
           username,
           user,
@@ -267,16 +264,16 @@ const SlideShow: React.FC = () => {
                 key={idx}
                 className="flex-1 h-1 relative overflow-hidden rounded bg-white/15"
               >
-                {/* Completed strips */}
+                
                 {idx < currentIndex && (
                   <div className="absolute inset-0 bg-white" />
                 )}
 
-                {/* Active strip — animated */}
+            
                 {idx === currentIndex && canAutoPlay && (
                   <motion.div
                     key={currentIndex}
-                    className="absolute inset-y-0 left-0 w-full bg-white" // note the w-full
+                    className="absolute inset-y-0 left-0 w-full bg-white" 
                     style={{ transformOrigin: "left" }}
                     initial={{ scaleX: 0 }}
                     animate={{ scaleX: 1 }}
@@ -295,7 +292,6 @@ const SlideShow: React.FC = () => {
         </div>
       )}
 
-      {/* Navigation Buttons */}
       {!loading && (
         <div className="absolute top-1/2 left-10 right-10 flex justify-between items-center px-4 transform -translate-y-1/2 z-30">
           <button
